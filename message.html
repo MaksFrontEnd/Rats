@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="message.css">
+	<link rel="stylesheet" type="text/css" href="MessageQueries.css">
+	<title>Message</title>
+</head>
+<body>
+
+<!-------Message---------->
+	<section id = "message">
+		<div class="container">
+		<!------------------------->
+		<form class = "message-body" action = "mail.php" method = "POST">
+			<legend class = "title-section">Написать на Почту</legend>
+
+			<div class = "form-group">
+				<label class = "message-text" for = "">Введите ваше имя</label>
+				<input type="text" class = "form-control" id = "" class = "sander" name = "user_name" placeholder = "Имя">
+			</div>
+
+			<div class = "form-group">
+				<label class = "message-text" for = "">Письмо</label>
+				<textarea type="text" class = "form-control" id = "" name = "user_phohe"placeholder = "Письмо"></textarea> 
+			</div>
+
+			<button type = "submit" class = "btn btn-primary">Отправить письмо</button>
+		</form>
+	</div>
+	<!--------F-O-O-T-E-R---------->
+	<div class="icon-block">
+			<ion-icon class = "icon" name="logo-tiktok"></ion-icon>
+			<ion-icon class = "icon" name="logo-facebook"></ion-icon>
+			<ion-icon class = "icon" name="logo-instagram"></ion-icon>
+			<ion-icon class = "icon" name="logo-twitter"></ion-icon>
+			<ion-icon class = "icon" name="logo-twitch"></ion-icon>
+		</div>
+		<h3 class = "copyright">&copy;Copyright 2021 by Maksym Spiżowy</h3>
+	</section>
+
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+/*--------------------------------------------*/
+@media screen and (max-width: 1450px){
+/*----H-E-A-D-----*/
+.big-heading{
+	font-size: 25px;
+}
+/*-----P-H-O-T-O-----*/
+.photo-img{
+	width: 160px;
+	height: 160px;
+}
+}
+/*---------------Large-Tablets----------------*/
+@media screen and (max-width: 1024px){
+/*----H-E-A-D-----*/
+.big-heading{
+	font-size: 25px;
+}
+/*-----P-H-O-T-O-----*/
+.photo-img{
+	width: 160px;
+	height: 160px;
+}
+/*----H-E-A-D-----*/
+.head-img{
+	position: static;
+}
+}
+/*---------------Small-Tablets----------------*/
+@media screen and (max-width: 768px){
+/*----S-L-I-D-E-&&-H-E-A-D*/
+.big-heading{
+	font-size: 25px;
+}
+/*----H-E-A-D-----*/
+.head-img{
+	position: static;
+}
+/*-----P-H-O-T-O-----*/
+.photo-img{
+	width: 160px;
+	height: 160px;
+}
+}
+/*-----------------Phones---------------------*/
+@media screen and (max-width: 572px){
+/*----S-L-I-D-E-&&-H-E-A-D*/
+.big-heading{
+	font-size: 19px;
+}
+/*----B-U-T-T-O-N-S----*/
+.btn-fond{
+font-size: 15px;
+}
+/*----S-L-I-D-E-----*/
+.show-img{
+width: 70px;
+}
+/*------P-H-O-T-O-S-------*/
+.photo-img{
+	width: 100%;
+	height: 250px;
+}
+.photos-block{
+padding: 0%;
+}
+.star-icon{
+	font-size: 30px;
+}
+.photos-text{
+	font-size: 22px;
+}
+/*----F-O-O-T-E-R-----*/
+.copyright{
+	font-size: 20px;
+}
+}
+/*--------------Special-for-(IPhone5 / IPhone5SE)------------------*/
+@media screen and (max-width: 320px){
+/*----S-L-I-D-E-&&-H-E-A-D*/
+.big-heading{
+	font-size: 15px;
+}
+em{
+	font-size: 15px;
+}
+/*------P-H-O-T-O-S-------*/
+.photo-img{
+	width: 100%px;
+	height: 220px;
+}
+/*----B-U-T-T-O-N-S----*/
+.btn-fond{
+font-size: 10px;
+}
+/*Navigation-Bar*/
+.nav-link{
+	font-size: 15px;
+}
+/*-----I-C-O-N-S-----*/
+.icon-star{
+font-size: 10px;
+}
+/*----F-O-O-T-E-R-----*/
+.copyright{
+	font-size: 15px;
+}
+}
